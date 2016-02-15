@@ -1,1 +1,25 @@
 Little scripts done in Bash.
+
+* Recomendation
+Add the repository to your *PATH* so you can execute scripts from everywhere. 
+Here is how!
+
+- Clone the repository
+#+BEGIN_SRC bash
+$ git clone https://github.com/Ironjanowar/Scripts.git
+#+END_SRC
+
+- Add the repository path to your *PATH* variable from /bash/. Open your /.bashrc/ (usually on /home/$USER)
+#+BEGIN_SRC bash
+PATH=$PATH:/path/to/Scripts
+#+END_SRC
+
+- Add to your /bashrc/ (in my case /zshrc/) an alias
+#+BEGIN_SRC bash
+alias gp="gitPush.sh"
+#+END_SRC
+
+- Now you are ready to go! Open a new shell, go into a repository and type:
+#+BEGIN_SRC bash
+$ gp
+#+END_SRC
