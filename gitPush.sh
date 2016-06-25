@@ -1,5 +1,6 @@
 #! /bin/bash
 
+
 if [ ! -d .git ]; then
     echo "Not in a GIT repository"
     exit
