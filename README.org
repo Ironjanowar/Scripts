@@ -2,13 +2,22 @@ Little scripts done in Bash.
 
 * Usage
 ** remove_spaces.py
-- Copy the file *remove_spaces.py* into a directory
-- Execute it
+- The script receives as params the files you want to rename
 #+BEGIN_SRC bash
-$ python3 remove_spaces.py
+$ python3 remove_spaces.py [FILES]
 #+END_SRC
 
+Example renaming a whole directory:
+
+[[https://s17.postimg.org/ouuh4h1a7/2016_10_18_22_42_09.jpg]]
+
+Example renaming a single file:
+
+[[https://s11.postimg.org/jbe207gs3/2016_10_18_22_45_07.jpg]]
+
 It will rename the files removing the spaces from it.
+
+**NOTE*: It's important to use *Python 3*
 
 ** gitPush.sh
 Add the repository to your *PATH* so you can execute scripts from everywhere. 
