@@ -17,7 +17,7 @@ Example renaming a single file:
 
 It will rename the files removing the spaces from it.
 
-**NOTE*: It's important to use *Python 3*
+\* *NOTE*: It's important to use *Python 3*
 
 ** gitPush.sh
 Add the repository to your *PATH* so you can execute scripts from everywhere. 
