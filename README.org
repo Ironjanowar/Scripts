@@ -1,7 +1,16 @@
 Little scripts done in Bash.
 
+* Usage
+** remove_spaces.py
+- Copy the file *remove_spaces.py* into a directory
+- Execute it
+#+BEGIN_SRC bash
+$ python3 remove_spaces.py
+#+END_SRC
 
-* Recomendation
+It will rename the files removing the spaces from it.
+
+** gitPush.sh
 Add the repository to your *PATH* so you can execute scripts from everywhere. 
 Here is how!
 
