@@ -8,3 +8,10 @@ docker rm $(docker ps -a -q)
 
 # Remove images
 docker rmi $(docker images -q)
+
+# Check
+echo "Checking docker ps:"
+docker ps
+
+echo "Checking docker images:"
+docker images
