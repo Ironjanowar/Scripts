@@ -1,44 +1,7 @@
-Little scripts done in Bash.
-
-* Usage
 ** remove_spaces.py
 - The script receives as params the files you want to rename
 #+BEGIN_SRC bash
 $ python3 remove_spaces.py [FILES]
 #+END_SRC
 
-Example renaming a whole directory:
-
-[[https://s17.postimg.org/ouuh4h1a7/2016_10_18_22_42_09.jpg]]
-
-Example renaming a single file:
-
-[[https://s11.postimg.org/jbe207gs3/2016_10_18_22_45_07.jpg]]
-
-It will rename the files removing the spaces from it.
-
 *NOTE*: It's important to use *Python 3*
-
-** gitPush.sh
-Add the repository to your *PATH* so you can execute scripts from everywhere. 
-Here is how!
-
-- Clone the repository
-#+BEGIN_SRC bash
-$ git clone https://github.com/Ironjanowar/Scripts.git
-#+END_SRC
-
-- Add the repository path to your *PATH* variable from /bash/. Open your /.bashrc/ (usually on /home/$USER)
-#+BEGIN_SRC bash
-PATH=$PATH:/path/to/Scripts
-#+END_SRC
-
-- Add to your /bashrc/ (in my case /zshrc/) an alias
-#+BEGIN_SRC bash
-alias gp="gitPush.sh"
-#+END_SRC
-
-- Now you are ready to go! Open a new shell, go into a repository and type:
-#+BEGIN_SRC bash
-$ gp
-#+END_SRC
