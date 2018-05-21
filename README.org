@@ -1,4 +1,4 @@
-** remove_spaces.py
+** remove_spaces
 - The script receives as params the files you want to rename
 #+BEGIN_SRC bash
 $ remove_spaces <path_to_files>
