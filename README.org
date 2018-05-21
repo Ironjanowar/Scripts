@@ -1,7 +1,20 @@
 ** remove_spaces.py
 - The script receives as params the files you want to rename
 #+BEGIN_SRC bash
-$ python3 remove_spaces.py [FILES]
+$ remove_spaces <path_to_files>
+#+END_SRC
+
+Examples:
+#+BEGIN_SRC bash
+$ remove_spaces *
+#+END_SRC
+
+#+BEGIN_SRC bash
+$ remove_spaces *.jpg
+#+END_SRC
+
+#+BEGIN_SRC bash
+$ remove_spaces 'file one.txt' 'file two.txt'
 #+END_SRC
 
 *NOTE*: It's important to use *Python 3*
